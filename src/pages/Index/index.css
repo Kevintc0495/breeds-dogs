@@ -1,0 +1,29 @@
+.header-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(29, 29, 151);
+}
+
+.header-link {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+ a {
+  text-decoration: none;
+}
+
+.header-link a:link {
+  color: white;
+}
+
+.header-link a:visited {
+  color: white;
+}
