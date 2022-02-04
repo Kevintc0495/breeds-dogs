@@ -12,7 +12,6 @@ function App() {
           <Route path="/" element={<Index/>}/>
           <Route path="/:letter" element={<Breeds/>}/>
           <Route path="/:letter/:breed" element={<BreedImage/>}/>
-
         </Routes>
       </Router>
     </div>
